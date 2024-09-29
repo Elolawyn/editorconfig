@@ -1,0 +1,31 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Common options
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Python
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Ruby
+[*.rb]
+indent_size = 2
+indent_style = space
+
+# Javascript, Typescript
+[*.{js,ts}]
+indent_size = 2
+indent_style = space
+
+# YAML
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space
