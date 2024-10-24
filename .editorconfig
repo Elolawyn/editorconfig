@@ -29,3 +29,13 @@ indent_style = space
 [*.{yml,yaml}]
 indent_size = 2
 indent_style = space
+
+# C++
+[*.{cpp,hpp}]
+indent_size = 2
+indent_style = space
+
+# CMake
+[{CMakeLists.txt,*.cmake,*.rst}]
+indent_size = 2
+indent_style = space
